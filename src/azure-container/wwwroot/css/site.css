@@ -1,0 +1,81 @@
+/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification 
+for details on configuring this project to bundle and minify static web assets. */
+body {
+    font-family: Insterstate, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"] {
+    width: 100%;
+}
+.carousel-caption {
+    text-align: right;
+}
+/* QR code generator */
+#qrCode {
+    margin: 15px;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+    /* Hide captions */
+    .carousel-caption {
+        display: none;
+    }
+}
+.navbar {
+    position: relative;
+    z-index: 1000;
+    min-height: 80px;
+    background: url(/images/map-east.png) no-repeat;
+    background-position: 50% 45%;
+    background-color: #93186c;
+}
+.navbar-logo {
+    padding: 10px;
+}
+.cookietoggle {
+    background-color: #00FF00;
+}
+.cookietoggle-toggle {
+    background-color: #00FF00;
+}
+
+.navbar-text {
+    font-weight: bold;
+    text-align: center;
+    color: #FFFFFF;
+}
+.header3-brand {
+    font-size: 40px;
+    text-align:center;
+    color: #93186c;
+}
+.grid-container{
+    display: grid;
+    grid-column-gap: 50px;
+}
+.grid-item1{
+    grid-column:1;
+}
+.grid-item2 {
+    grid-column: 2;
+}
+.grid-item3 {
+    grid-column: 3;
+}
