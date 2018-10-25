@@ -12,7 +12,7 @@ namespace CraftathonContainerTest.Pages
 
         public void OnGet()
         {
-            Message = "Expert support through our comprehensive range of mortgage and loan services";
+            Message = "Expert support through our comprehensive range of loan services";
         }
     }
 }
